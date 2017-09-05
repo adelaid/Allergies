@@ -1,0 +1,490 @@
+body
+{
+    margin:0; 
+    padding:0; 
+    color:#303030; 
+    background:#fafafa url(img/bodybg.gif) top left repeat-y; 
+    font:76% "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul
+{
+    list-style:circle; 
+    margin:15px 0 20px 0; 
+    font-size:0.9em;
+}
+
+li
+{margin:0 0 8px 25px;}
+
+a
+{
+    color:#A1B449; 
+    font-weight:bold; 
+    text-decoration:none;
+}
+
+a:hover
+{ 
+    text-decoration:underline;}
+
+img
+{
+    float:left; 
+    margin:0 15px 15px 0; 
+    padding:1px; 
+    background:#ffffff; 
+    border:1px solid rgba(208, 208, 208, 0);
+    background-color: transparent;
+}
+#menuPizza:hover
+{
+    transform: scale(2.5, 2.5);
+}
+a img
+{border-color:#A1B449;}
+
+a img:hover
+{
+    background:#A1B449; 
+    border-color:#A1B449;
+}
+
+
+.registrationform input #formBt, .loginform input #formBt
+{
+    background-color: #ACF248;
+    width:100px;
+}
+#logo
+{
+    background:transparent;
+    border-color:transparent;
+    width: 80%;
+
+    padding-left: 8%;
+    padding-bottom: 0;
+
+}
+#pizzalogo
+{
+    background:transparent;
+    border-color:transparent;
+}
+
+.loginform, .registrationform, #reviewsTable
+{
+    padding:15% 0 0 0;
+    text-align:center;
+}
+
+.registrationform, .loginform
+{
+    position: relative;
+    z-index: 1;
+    background: #FFFEF7;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.62), 0 5px 55px 0 rgba(0, 0, 0, 0.58);
+    
+}
+#reviewsArea #reviewsTable td input.Formbuttons
+{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(243, 219, 35);
+    font-size: 20px;
+    color: rgb(191, 18, 18);
+}
+#reviewsTable 
+{
+    position: relative;
+    z-index: 1;
+    background: #EEE5C0;
+    width: 100%;
+    margin: 0 auto 100px;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#reviewsArea #com
+{
+    margin: 0px auto;
+    width:100%;
+    position:relative;
+    z-index:1;
+}
+#reviewRow #starImg{
+    text-align: center;
+    margin: 0px auto;
+    background-color: transparent;
+    border-color: #ffffff;
+    padding:5px;
+}
+#tableHead
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #BAE083;
+}
+#reviewRow 
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 2px;
+    border-top-color: #E1C970;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.registrationform input, .loginform input
+{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #FFFFFF;
+    width: 90%;
+    border: 0;
+    margin: 0 0 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #F8D966;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.registrationform .form-element label, .loginform .form-element label
+{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    color: #609F1C;
+}
+#sidebar
+{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ae1308, #FFC800); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ae1308, #FFC800); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ae1308, #FFC800); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ae1308, #FFC800), url('img/texture.jpg') repeat-x;
+    position: fixed;
+    top: 7%;
+    left:0; 
+    width:17.5%; 
+    height:100%; 
+    text-align:right;
+    box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.4), 0 23px 20px 0 rgba(0, 0, 0, 0.3);
+    z-index: 8;
+}
+
+#sidebar2
+{
+    z-index: 8;
+    top: 7%;
+    right:0; 
+    width:7%; 
+    height:100%; 
+    overflow:auto; 
+    background: #ae1308 url(img/sidebarbg.gif); 
+    text-align:left;
+    box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.4), 0 23px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+body > #sidebar
+{position:fixed;}
+
+body > #sidebar2
+{position:fixed;}
+
+body > #bigmenu
+{position:fixed;}
+
+#bigmenu
+{
+    z-index:8;
+    background: #ae1308;   
+
+    position: fixed;
+    top:0; 
+    right:0; 
+    left:0;
+    width:100%; 
+    height:7%; 
+    overflow:auto; 
+
+    text-align:right;
+
+}
+#bigmenu #bigmenulinks
+{
+    z-index:9;
+}
+#bigmenu a
+{
+    padding:5px 18px 5px 0;
+    color: #FFFC0B;
+    font-size: 15px;
+}
+#bigmenu a:hover{
+    color:#8AA236;
+}
+#sidebar h1
+{
+    margin:20px 18px 0 5px; 
+    color:#AA9239; 
+    font-size:1.6em; 
+    letter-spacing:-2px; 
+    text-align:right;
+}
+
+#sidebar h2, #sidebar h3
+{
+    margin:0 20px 18px 5px; 
+    color:#808080; 
+    font-size:1.1em; 
+    font-weight:bold; 
+    letter-spacing:-1px; 
+    text-align:right;
+}
+
+#sidebar h3
+{
+    margin:20px 18px 4px 5px; 
+    color:#606060;
+}
+
+#sidebar  p
+{
+    margin:0 20px 18px 5px; 
+    color:#606060; 
+    font-size:0.8em;
+}
+
+#sidebar a, #uppermenu a
+{
+    color:#AA9239
+}
+
+
+.slideshow
+{
+    top:-20px;
+    margin: 0px auto;
+    max-width:100%;
+    position:relative;
+    height: 400px;
+}
+#reviewsArea
+{
+    margin: 0px auto;
+    max-width:700px;
+    position:relative;
+}
+
+.slideshow .slideshowDisplay img
+{
+    border-top-width: 0px; 
+    border-left-width: 0px; 
+    margin-right: 0px;
+    height: 500px;
+    border-bottom-width: 0px; 
+    padding-bottom: 0px;
+
+}
+.slideshow a img
+{
+    border-color:transparent;
+    background: transparent;
+}
+.slideshow #left:hover, .slideshow #right:hover
+{
+    background:transparent;
+
+}
+#sidebar #menu
+{
+    padding-top: 25%;
+}
+#menu a
+{
+    display:block; 
+    width:97%; 
+    padding:5px 18px 5px 0;
+    color:#2A0101;
+    background:RGBA(170, 146, 57, 0) url(img/sidebarbg.gif) top right repeat-y; 
+    font-size:1.8em;
+    font-weight:normal;
+    text-decoration:none; 
+    letter-spacing:-2px;
+}
+
+#menu a:hover
+{
+    color:#303030;
+    background:#A1B449 url(img/sidebarbg.gif) top right repeat-y;
+}
+
+#uppermenu nav ul li a.PolyLogo{
+    margin: 0 0 50px 0;
+    background-image: url(img/OurLogo2.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    display: block;
+    margin-top: -70px;
+    padding-right: 35%;
+    width: 130px;
+    position: fixed;
+    z-index: 100;
+    margin-left: 20%;
+}
+#uppermenu nav ul li
+{
+    list-style-type: none;
+    margin-left: 3px;
+
+}
+#message
+{
+    display: block;
+    margin-top: -25px;
+    padding-left: 35%;
+    width: 200px;
+    position: fixed;
+    z-index: 100;
+    margin-left: -8%;
+    color: #a81515;
+    font: 40px 'Sansita One';
+    text-align: center;
+    text-shadow: 0px 1px 1px RGBA(61, 66, 78, 0.24), 1px 6px 6px rgba(92, 95, 114, 0.14);
+
+}
+
+#uppermenu a.active
+{
+    padding:5px 18px 5px 0;
+    background:#8AA236;
+    border-left:2px solid #c0c0c0;
+    border-right:2px solid #c0c0c0;   
+}
+#uppermenu a:hover
+{
+    color: #fff;
+  
+}
+#menu a.active
+{
+    padding: 5px 3% 5px 0;
+    background:#A1C032;
+    border-top:2px solid #931111;
+    border-bottom:2px solid #931111;
+}
+
+#menu a.active:hover, #uppermenu a.active:hover
+{
+    color:#505050;
+    background:#fafafa;
+}
+
+#contentUser
+{
+    width: 75.6%;
+    top: 7%;
+    margin: 5% 12.5% 0 17.4%;
+    padding: 3.15% 0px 0px 0px;
+    height: 1250px;
+    z-index: 2;
+    background-image: url("img/pizza33Blur.jpg");
+    background-repeat: no-repeat;
+}
+
+#content
+{
+    width: 75.6%;
+    top: 7%;
+    margin: 5% 12.5% 0 17.4%;
+    padding: 3.15% 0px 0px 0px;
+    height: 1000px;
+    z-index: 2;
+    background: #fafafa;
+}
+
+#uppermenu
+{
+    z-index: 8;
+    position: fixed;
+    top: 7%;
+    width: 87%;
+    height:100px;
+    overflow: auto;
+
+    text-align: center;
+    background-image: url(img/ribbon2.png);
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+
+    right: 1%;
+}
+
+#uppermenu nav
+{
+    z-index: 10;
+    padding-top: 1%;
+    padding-bottom:1%;
+    position: relative;
+}
+.AUh
+{
+    padding-left: 7%;
+    font-size: 18px;
+}
+.AUp
+{
+    padding-left: 4%; 
+    padding-right: 4%;
+    font-size: 17px;
+}
+#content p, #contentUser p
+{
+    margin:0 0 20px 0; 
+    line-height:1.5em;
+}
+
+#content h1, #contentUser h1
+{
+    margin:0;
+    color:#3DAA0E;
+    font-size:3em;
+    letter-spacing:-2px;
+    text-align:center;
+}
+
+#content h2, #contentUser h2
+{
+    margin:0; 
+    color:#808080;
+    font-weight:normal;
+    font-size:2.5em;
+    letter-spacing:-2px;
+    text-align:center;
+}
+
+#content h3, #contentUser h3
+{
+    clear:both; 
+    margin:30px 0 10px 0;
+    color:#A1B449;
+    font-weight:normal;
+    font-size: 2em; 
+    letter-spacing:-2px;
+}
+
